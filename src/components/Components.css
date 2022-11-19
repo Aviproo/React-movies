@@ -1,0 +1,57 @@
+.newcard {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.form {
+  background-color: blanchedalmond;
+}
+.cardimg {
+  text-decoration: none;
+  width: 200px;
+  height: 250px;
+}
+.cards {
+  padding: 5px;
+  margin: 5px;
+  flex-wrap: wrap;
+  display: block;
+  justify-content: space-evenly;
+}
+.name {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.heading {
+  text-align: center;
+  background-color: rgb(77, 195, 156);
+  font-size: 30px;
+}
+.time {
+  align-items: flex-end;
+  background-color: rgba(0, 128, 0, 0.387);
+  border: 1px solid rgba(0, 0, 0, 0.397);
+  font-size: 30px;
+  border-radius: 20px;
+}
+.input {
+  border: 1px solid rgba(0, 0, 0, 0.449);
+  height: 30px;
+  width: 300px;
+}
+.formbox {
+  text-align: center;
+  width: 300px;
+  height: 200px;
+}
+.submit {
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.378);
+  width: 100px;
+  height: 25px;
+  margin: 10px;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+
+  background-color: rgba(8, 29, 37, 0.914);
+}
